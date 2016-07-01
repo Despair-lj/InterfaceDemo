@@ -2,7 +2,7 @@
 header('Content-Type:text/html;charset=utf-8');
 require 'MyPdo.class.php';
 
-    define("ALL_PS", "pencil");
+    define("ALL_PS", "lj");
     $action = isset($_GET['action'])?$_GET['action']:"";
     $userinfo = isset($_POST['action'])?$_POST['action']:"";
     $error = "false";
